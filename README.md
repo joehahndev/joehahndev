@@ -25,10 +25,22 @@ breaking what already works.
 | | |
 |---|---|
 | [**drupress**](https://github.com/joehahndev/drupress) | A WordPress-style admin experience for Drupal 11 — module suite, admin theme, and install recipe, built as a strict presentation layer |
+| [**peanut-gallery**](https://github.com/joehahndev/peanut-gallery) | Timestamped comments on hours-long audio for Drupal 11 — streams multi-GB files, node-access sharing, passwordless invites, 54 PHPUnit tests |
+| [**drupaltui**](https://github.com/joehahndev/drupaltui) | Go terminal UI for writing Drupal content over JSON:API + OAuth2; no delete code path by design |
 | [**mag2026**](https://github.com/joehahndev/mag2026) | Dependency-free Drupal 10/11 magazine theme; hand-written CSS grid, no framework |
+| [**drupal-module-ci**](https://github.com/joehahndev/drupal-module-ci) | Reusable GitHub Actions workflow: phpcs, phpstan and PHPUnit against a freshly built Drupal site, PHP × Drupal matrix |
+| [**drupal-claude-skills**](https://github.com/joehahndev/drupal-claude-skills) | Claude Code skills that keep an AI agent writing modern, standards-compliant Drupal |
 | [**bulletproof-email-templates**](https://github.com/joehahndev/bulletproof-email-templates) | Production modular Marketo email template built for a large weekly alumni newsletter |
 | [**givecampus-link-tool**](https://github.com/joehahndev/givecampus-link-tool) | Self-service tool for advancement teams — prepopulated, fully tracked giving links |
 | [**marketo-api-tools**](https://github.com/joehahndev/marketo-api-tools) | Small tools on the Marketo REST API to remove repetitive work from an email team's day |
+
+### How I work
+
+Every repo above ships with a license, CI and a tagged release. Drupal code runs
+through [drupal-module-ci](https://github.com/joehahndev/drupal-module-ci)
+(phpcs `Drupal` + `DrupalPractice`, phpstan with deprecation rules, PHPUnit) on every
+push, and the [drupal-claude-skills](https://github.com/joehahndev/drupal-claude-skills)
+repo is how I keep AI-assisted work to the same standard.
 
 ### Elsewhere
 
