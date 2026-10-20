@@ -25,6 +25,7 @@ breaking what already works.
 | | |
 |---|---|
 | [**drupress**](https://github.com/joehahndev/drupress) | A WordPress-style admin experience for Drupal 11 — module suite, admin theme, and install recipe, built as a strict presentation layer |
+| [**petrichor**](https://github.com/joehahndev/petrichor) | Agent-first project management on Drupal 11: projects, wiki and durable agent memory as content entities, with a built-in MCP server. Replaced Leantime in two days and has run every project since |
 | [**peanut-gallery**](https://github.com/joehahndev/peanut-gallery) | Timestamped comments on hours-long audio for Drupal 11 — streams multi-GB files, node-access sharing, passwordless invites, 54 PHPUnit tests |
 | [**drupaltui**](https://github.com/joehahndev/drupaltui) | Go terminal UI for writing Drupal content over JSON:API + OAuth2; no delete code path by design |
 | [**mag2026**](https://github.com/joehahndev/mag2026) | Dependency-free Drupal 10/11 magazine theme; hand-written CSS grid, no framework |
